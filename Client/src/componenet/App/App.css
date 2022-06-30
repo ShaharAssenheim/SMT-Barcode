@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html body{ 
+  background: url('../../images/bgflex.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 25px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  margin-bottom: 50px;
+  background: transparent;
+  min-height: calc(100vh - 110px); 
+  overflow-x: hidden;
+}
+
+.title {
+  position: relative;
+  background-color: #64A2DA;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  font-size: 2.6em;
+  border-radius: 5px;
+}
+
+
+.playBtn {
+  position: absolute;
+  font-size: 1.4em;
+  padding: 10px;
+  border: 0;
+  top: 10rem;
+  background-color: #64A2DA;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+}
+
+.playBtn:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.input {
+  height: 3rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.btn {
+  height: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+  border: 0;
+  color: white;
+  background-color: #64A2DA;
+  
+}
+
+
+
+
+
+
